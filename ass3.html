@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GIF search engine</title>
+
+<style>
+    body{
+        background-color: #011d43fe; 
+    }
+    .container-padding{
+        padding-top: 50px;
+    }
+    .container-button{
+       
+        background-color: #03be42;
+        border-radius: 3px;
+        border: none;
+        height:40px;
+        width: 60px; 
+        font-size: 16px;       
+    }
+    .container-textinput{
+        display: inline-block;
+        height: 40px;
+        padding: 0 1.25em;
+        font-size: 16px;
+        width: 200px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        
+
+    }
+    .container-image{
+        width: 30%;
+        display: block;
+        float: left;
+        margin-right: 3%;
+        }
+</style>
+</head>
+<body>
+<div class="container container-padding">
+    <input class="js-userinput container-textinput" type="text" placeholder="Search here">
+    <button class="js-go container-button">Go!</button>
+
+</div>
+<div class="container-padding keyword"></div>
+
+<div class="container container-padding jscontainer"></div>
+<script src="ass3.js"></script>
+</body>
+</html>
