@@ -16,7 +16,7 @@ function getData(data) {
     let container = document.querySelector(".keyword");
     container.innerHTML = data;
     var keyword = data.split(" ").join("+");
-    var url="http://api.giphy.com/v1/gifs/search?q="+keyword+"&api_key=iQvfwH6oEptRSa5EUeHi5hcrGBQ43O9c";
+    var url="https8://api.giphy.com/v1/gifs/search?q="+keyword+"&api_key=iQvfwH6oEptRSa5EUeHi5hcrGBQ43O9c";
 
     // AJAX, Request
     var GiphyAJAXCall = new XMLHttpRequest();
